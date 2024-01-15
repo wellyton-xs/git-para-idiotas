@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "até uma criança de dez anos entende esse tutorial de git",
   "main": "index.js",
+  "scripts": {
+    "husky:prepare": "husky install"
+  },
   "repository": "https://github.com/wellyton-xs/git-para-idiotas",
   "author": "wellyton-xs <wellyton.offcer@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.6",
+    "husky": "^8.0.3"
+  }
 }
